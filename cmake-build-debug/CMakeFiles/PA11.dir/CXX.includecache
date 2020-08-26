@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/xuantongpan/CLionProjects/PA11/Bruch.h
+iostream
+-
+
+/Users/xuantongpan/CLionProjects/PA11/main.cpp
+Bruch.h
+/Users/xuantongpan/CLionProjects/PA11/Bruch.h
+

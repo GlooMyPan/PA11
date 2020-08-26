@@ -1,0 +1,3 @@
+/Users/xuantongpan/CLionProjects/PA11/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/xuantongpan/CLionProjects/PA11/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/xuantongpan/CLionProjects/PA11/cmake-build-debug/CMakeFiles/PA11.dir
