@@ -77,30 +77,45 @@ include CMakeFiles/PA11.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/PA11.dir/flags.make
 
-CMakeFiles/PA11.dir/main.cpp.o: CMakeFiles/PA11.dir/flags.make
-CMakeFiles/PA11.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xuantongpan/CLionProjects/PA11/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PA11.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PA11.dir/main.cpp.o -c /Users/xuantongpan/CLionProjects/PA11/main.cpp
+CMakeFiles/PA11.dir/mainPA11.cpp.o: CMakeFiles/PA11.dir/flags.make
+CMakeFiles/PA11.dir/mainPA11.cpp.o: ../mainPA11.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xuantongpan/CLionProjects/PA11/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PA11.dir/mainPA11.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PA11.dir/mainPA11.cpp.o -c /Users/xuantongpan/CLionProjects/PA11/mainPA11.cpp
 
-CMakeFiles/PA11.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PA11.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xuantongpan/CLionProjects/PA11/main.cpp > CMakeFiles/PA11.dir/main.cpp.i
+CMakeFiles/PA11.dir/mainPA11.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PA11.dir/mainPA11.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xuantongpan/CLionProjects/PA11/mainPA11.cpp > CMakeFiles/PA11.dir/mainPA11.cpp.i
 
-CMakeFiles/PA11.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PA11.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xuantongpan/CLionProjects/PA11/main.cpp -o CMakeFiles/PA11.dir/main.cpp.s
+CMakeFiles/PA11.dir/mainPA11.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PA11.dir/mainPA11.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xuantongpan/CLionProjects/PA11/mainPA11.cpp -o CMakeFiles/PA11.dir/mainPA11.cpp.s
+
+CMakeFiles/PA11.dir/Bruch.cpp.o: CMakeFiles/PA11.dir/flags.make
+CMakeFiles/PA11.dir/Bruch.cpp.o: ../Bruch.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xuantongpan/CLionProjects/PA11/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PA11.dir/Bruch.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PA11.dir/Bruch.cpp.o -c /Users/xuantongpan/CLionProjects/PA11/Bruch.cpp
+
+CMakeFiles/PA11.dir/Bruch.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PA11.dir/Bruch.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xuantongpan/CLionProjects/PA11/Bruch.cpp > CMakeFiles/PA11.dir/Bruch.cpp.i
+
+CMakeFiles/PA11.dir/Bruch.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PA11.dir/Bruch.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xuantongpan/CLionProjects/PA11/Bruch.cpp -o CMakeFiles/PA11.dir/Bruch.cpp.s
 
 # Object files for target PA11
 PA11_OBJECTS = \
-"CMakeFiles/PA11.dir/main.cpp.o"
+"CMakeFiles/PA11.dir/mainPA11.cpp.o" \
+"CMakeFiles/PA11.dir/Bruch.cpp.o"
 
 # External object files for target PA11
 PA11_EXTERNAL_OBJECTS =
 
-PA11: CMakeFiles/PA11.dir/main.cpp.o
+PA11: CMakeFiles/PA11.dir/mainPA11.cpp.o
+PA11: CMakeFiles/PA11.dir/Bruch.cpp.o
 PA11: CMakeFiles/PA11.dir/build.make
 PA11: CMakeFiles/PA11.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/xuantongpan/CLionProjects/PA11/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable PA11"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/xuantongpan/CLionProjects/PA11/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable PA11"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PA11.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

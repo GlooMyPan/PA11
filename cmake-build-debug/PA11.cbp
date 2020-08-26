@@ -80,10 +80,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/xuantongpan/CLionProjects/PA11/Bruch.cpp">
+			<Option target="PA11"/>
+		</Unit>
 		<Unit filename="/Users/xuantongpan/CLionProjects/PA11/Bruch.h">
 			<Option target="PA11"/>
 		</Unit>
-		<Unit filename="/Users/xuantongpan/CLionProjects/PA11/main.cpp">
+		<Unit filename="/Users/xuantongpan/CLionProjects/PA11/mainPA11.cpp">
+			<Option target="PA11"/>
+		</Unit>
+		<Unit filename="/Users/xuantongpan/CLionProjects/PA11/projekt11.h">
 			<Option target="PA11"/>
 		</Unit>
 		<Unit filename="/Users/xuantongpan/CLionProjects/PA11/CMakeLists.txt">

@@ -3,4 +3,4 @@ project(PA11)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(PA11 main.cpp Bruch.h)
+add_executable(PA11 mainPA11.cpp Bruch.h projekt11.h Bruch.cpp)

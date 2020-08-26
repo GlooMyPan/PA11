@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/PA11.dir/main.cpp.o"
+  "CMakeFiles/PA11.dir/Bruch.cpp.o"
+  "CMakeFiles/PA11.dir/mainPA11.cpp.o"
   "PA11"
   "PA11.pdb"
 )

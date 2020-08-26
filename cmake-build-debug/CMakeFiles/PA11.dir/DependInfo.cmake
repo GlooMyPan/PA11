@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/xuantongpan/CLionProjects/PA11/main.cpp" "/Users/xuantongpan/CLionProjects/PA11/cmake-build-debug/CMakeFiles/PA11.dir/main.cpp.o"
+  "/Users/xuantongpan/CLionProjects/PA11/Bruch.cpp" "/Users/xuantongpan/CLionProjects/PA11/cmake-build-debug/CMakeFiles/PA11.dir/Bruch.cpp.o"
+  "/Users/xuantongpan/CLionProjects/PA11/mainPA11.cpp" "/Users/xuantongpan/CLionProjects/PA11/cmake-build-debug/CMakeFiles/PA11.dir/mainPA11.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

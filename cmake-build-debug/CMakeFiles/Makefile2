@@ -94,12 +94,12 @@ clean: CMakeFiles/PA11.dir/clean
 CMakeFiles/PA11.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PA11.dir/build.make CMakeFiles/PA11.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PA11.dir/build.make CMakeFiles/PA11.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/xuantongpan/CLionProjects/PA11/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target PA11"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/xuantongpan/CLionProjects/PA11/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target PA11"
 .PHONY : CMakeFiles/PA11.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/PA11.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/xuantongpan/CLionProjects/PA11/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/xuantongpan/CLionProjects/PA11/cmake-build-debug/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/PA11.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/xuantongpan/CLionProjects/PA11/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/PA11.dir/rule

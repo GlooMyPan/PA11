@@ -143,32 +143,59 @@ PA11/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PA11.dir/build.make CMakeFiles/PA11.dir/build
 .PHONY : PA11/fast
 
-main.o: main.cpp.o
+Bruch.o: Bruch.cpp.o
 
-.PHONY : main.o
+.PHONY : Bruch.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PA11.dir/build.make CMakeFiles/PA11.dir/main.cpp.o
-.PHONY : main.cpp.o
+Bruch.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PA11.dir/build.make CMakeFiles/PA11.dir/Bruch.cpp.o
+.PHONY : Bruch.cpp.o
 
-main.i: main.cpp.i
+Bruch.i: Bruch.cpp.i
 
-.PHONY : main.i
+.PHONY : Bruch.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PA11.dir/build.make CMakeFiles/PA11.dir/main.cpp.i
-.PHONY : main.cpp.i
+Bruch.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PA11.dir/build.make CMakeFiles/PA11.dir/Bruch.cpp.i
+.PHONY : Bruch.cpp.i
 
-main.s: main.cpp.s
+Bruch.s: Bruch.cpp.s
 
-.PHONY : main.s
+.PHONY : Bruch.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PA11.dir/build.make CMakeFiles/PA11.dir/main.cpp.s
-.PHONY : main.cpp.s
+Bruch.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PA11.dir/build.make CMakeFiles/PA11.dir/Bruch.cpp.s
+.PHONY : Bruch.cpp.s
+
+mainPA11.o: mainPA11.cpp.o
+
+.PHONY : mainPA11.o
+
+# target to build an object file
+mainPA11.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PA11.dir/build.make CMakeFiles/PA11.dir/mainPA11.cpp.o
+.PHONY : mainPA11.cpp.o
+
+mainPA11.i: mainPA11.cpp.i
+
+.PHONY : mainPA11.i
+
+# target to preprocess a source file
+mainPA11.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PA11.dir/build.make CMakeFiles/PA11.dir/mainPA11.cpp.i
+.PHONY : mainPA11.cpp.i
+
+mainPA11.s: mainPA11.cpp.s
+
+.PHONY : mainPA11.s
+
+# target to generate assembly for a file
+mainPA11.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PA11.dir/build.make CMakeFiles/PA11.dir/mainPA11.cpp.s
+.PHONY : mainPA11.cpp.s
 
 # Help Target
 help:
@@ -179,9 +206,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... PA11"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... Bruch.o"
+	@echo "... Bruch.i"
+	@echo "... Bruch.s"
+	@echo "... mainPA11.o"
+	@echo "... mainPA11.i"
+	@echo "... mainPA11.s"
 .PHONY : help
 
 

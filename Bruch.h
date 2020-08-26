@@ -32,7 +32,9 @@ public:
 
 
 /***  Rechenmethoden  ***/
+    Bruch operator=(int i);
 
+    Bruch operator*(Bruch& bruch);
 
 } ;  // class Bruch
 
