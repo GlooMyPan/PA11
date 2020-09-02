@@ -4,10 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/xuantongpan/CLionProjects/PA11/Bruch.cpp" "/Users/xuantongpan/CLionProjects/PA11/cmake-build-debug/CMakeFiles/PA11.dir/Bruch.cpp.o"
-  "/Users/xuantongpan/CLionProjects/PA11/mainPA11.cpp" "/Users/xuantongpan/CLionProjects/PA11/cmake-build-debug/CMakeFiles/PA11.dir/mainPA11.cpp.o"
+  "E:/ProjekAufgaben/PA11/Ausgabe.cpp" "E:/ProjekAufgaben/PA11/cmake-build-debug/CMakeFiles/PA11.dir/Ausgabe.cpp.obj"
+  "E:/ProjekAufgaben/PA11/Bruch.cpp" "E:/ProjekAufgaben/PA11/cmake-build-debug/CMakeFiles/PA11.dir/Bruch.cpp.obj"
+  "E:/ProjekAufgaben/PA11/gauss.cpp" "E:/ProjekAufgaben/PA11/cmake-build-debug/CMakeFiles/PA11.dir/gauss.cpp.obj"
+  "E:/ProjekAufgaben/PA11/mainPA11.cpp" "E:/ProjekAufgaben/PA11/cmake-build-debug/CMakeFiles/PA11.dir/mainPA11.cpp.obj"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "MSVC")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

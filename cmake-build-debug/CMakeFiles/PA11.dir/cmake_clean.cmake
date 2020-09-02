@@ -1,7 +1,11 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/PA11.dir/Bruch.cpp.o"
-  "CMakeFiles/PA11.dir/mainPA11.cpp.o"
-  "PA11"
+  "CMakeFiles/PA11.dir/Ausgabe.cpp.obj"
+  "CMakeFiles/PA11.dir/Bruch.cpp.obj"
+  "CMakeFiles/PA11.dir/gauss.cpp.obj"
+  "CMakeFiles/PA11.dir/mainPA11.cpp.obj"
+  "PA11.exe"
+  "PA11.exe.manifest"
+  "PA11.lib"
   "PA11.pdb"
 )
 
